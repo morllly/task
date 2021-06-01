@@ -13,7 +13,7 @@ use Twig\Error\{LoaderError, RuntimeError, SyntaxError};
 class MainController
 {
     private const QUOTE = <<<TXT
-I have a dream that one day, down in Alabama, with its vicious racists, with its governor having his lips dripping with the words of "interposition" and "nullification"
+I have a dream that one day, down in Alabama, with its vicious racists, with its governor having his lips dripping with the words of "interposition" and "nullification" — one day right there in Alabama little black boys and black girls will be able to join hands with little white boys and white girls as sisters and brothers.
 TXT;
 
     private SerializerInterface $serializer;
