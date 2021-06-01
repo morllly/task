@@ -8,6 +8,7 @@ services:
       args:
         UID: ${DUID}
         GID: ${DGID}
+        STUDENT: ${STUDENT}
     volumes:
     - .:/var/www/app
     environment:
